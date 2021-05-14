@@ -1,0 +1,8 @@
+<!-- após as configurações devemos pingar o switch no roteador usando o cascateamento da porta gi0/24 do switch e no roteagor gi0/0 depois de fazer o script 5 -->
+
+
+
+<!-- para acessar remotamente o comando deve ser aplicado no terminal do windows ou linux depois de fazer a etapa 6 -->
+
+ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -c aes128-cbc luciana@172.16.1.253
+ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -c aes128-cbc maxswell@172.16.1.254
